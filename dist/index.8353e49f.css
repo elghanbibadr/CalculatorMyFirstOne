@@ -125,29 +125,54 @@ body {
 
 .them .themContainer .them-item {
   width: 40px;
-  height: 10px;
+  height: 15px;
   background-color: #182034;
   border-radius: 25px;
-  margin-top: 4px;
+  margin-top: 2px;
   margin-left: 10px;
 }
 
 .them .themContainer .them-item .circle {
   height: 100%;
-  width: 30%;
+  width: 40%;
   background-color: #d03f2f;
   border-radius: 50%;
   margin-bottom: 6px;
+  transition: transform .4s;
   display: inline-block;
   position: relative;
 }
 
-.them .themContainer .them-item .moveCircle {
-  left: 30%;
+.them .themContainer .them-item .moveToEnd {
+  transform: translateX(24px);
 }
 
-.them .themContainer .them-item .moveToEnd {
-  left: 80%;
+.bodyChangeBg {
+  background-color: #e6e6e6;
+}
+
+.containerBg {
+  background-color: #d1cccc;
+}
+
+.displayBg {
+  background-color: #fff;
+}
+
+.circleBg, .equalBg {
+  background-color: #ca5502 !important;
+}
+
+.deleteBg, .resetBg {
+  background-color: #377f86 !important;
+}
+
+.buttonBg {
+  color: #35352c;
+}
+
+.textChange {
+  color: #232c43 !important;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */

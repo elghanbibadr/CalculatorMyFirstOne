@@ -115,27 +115,51 @@ body{
         margin-top: 5px;
         .them-item{
             width: 40px;
-            height: 10px;
+            height: 15px;
             background-color: $accent;
             border-radius: 25px;
-            margin-top: 4px;
+            margin-top: 2px;
             margin-left: 10px;
             .circle{
                 height: 100%;
-                width: 30%;
+                width: 40%;
                 display: inline-block;
                 background-color:$keyRed;
                 margin-bottom: 6px;
                 border-radius: 50%;
                 position: relative;
+                transition: transform 0.4s;
             }
             // move
-             .moveCircle{
-                 left: 30%;
-             }
+           
              .moveToEnd{
-             left: 80%;
+             transform: translateX(24px);
              }
+
         }
     }
+}
+// change them color
+.bodyChangeBg{
+    background-color: #e6e6e6;
+
+}
+.containerBg{
+    background-color:hsl(0, 5%, 81%);
+}
+.displayBg{
+background-color: white;
+}
+.circleBg,.equalBg{
+     background-color: #ca5502 !important;
+}
+
+.deleteBg,.resetBg{
+    background-color: #377f86 !important;
+}
+.buttonBg{
+     color: hsl(60, 10%, 19%);
+}
+.textChange{
+    color:$seconday !important ;
 }
