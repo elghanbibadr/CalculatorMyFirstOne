@@ -1,0 +1,153 @@
+body {
+  background-color: #3a4764;
+  grid-template-columns: 400px;
+  justify-content: center;
+  font-family: Spartan, sans-serif;
+  display: grid;
+}
+
+@media (min-width: 786px) {
+  body {
+    grid-template-columns: 500px;
+  }
+}
+
+.display {
+  color: #fff;
+  width: 370px;
+  text-align: right;
+  background-color: #182034;
+  border-radius: 5px;
+  margin-block: 1rem;
+}
+
+.display h1 {
+  margin-right: 1.3rem;
+}
+
+@media (min-width: 786px) {
+  .display {
+    width: 453px;
+  }
+}
+
+.container {
+  width: fit-content;
+  background-color: #232c43;
+  border-radius: 4px;
+  grid-template-rows: repeat(5, 50px);
+  grid-template-columns: repeat(4, 70px);
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.3rem;
+  display: grid;
+}
+
+.container .display {
+  background-color: #182034;
+  grid-template-rows: 250px;
+  grid-template-columns: repeat(4, 70px);
+  display: grid;
+}
+
+.container .reset {
+  grid-column: 1 / 3;
+}
+
+.container .reset, .container .delete {
+  color: #fff;
+  background-color: #637097;
+  font-size: 1.2rem;
+}
+
+.container .reset:hover, .container .delete:hover {
+  background-color: #5a627c;
+}
+
+.container .equal {
+  color: #fff;
+  background-color: #d03f2f;
+  grid-column: 3 / 5;
+}
+
+.container .equal:hover {
+  background-color: #a0473b;
+}
+
+.container button {
+  border-radius: inherit;
+  cursor: pointer;
+  color: #394052;
+  box-shadow: inset 0 -3px 0 0 0 #ccc;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  transition: all .6s;
+}
+
+.container button:hover {
+  background-color: silver;
+}
+
+@media (min-width: 786px) {
+  .container {
+    grid-template-rows: repeat(5, 50px);
+    grid-template-columns: repeat(4, 90px);
+    align-content: center;
+  }
+}
+
+.them {
+  width: 370px;
+  justify-content: space-between;
+  display: flex;
+}
+
+@media (min-width: 786px) {
+  .them {
+    width: 453px;
+  }
+}
+
+.them h3, .them h6 {
+  color: #fff;
+  margin-block: 0;
+}
+
+.them h6 {
+  margin-top: 3px;
+}
+
+.them .themContainer {
+  margin-top: 5px;
+  display: flex;
+}
+
+.them .themContainer .them-item {
+  width: 40px;
+  height: 10px;
+  background-color: #182034;
+  border-radius: 25px;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.them .themContainer .them-item .circle {
+  height: 100%;
+  width: 30%;
+  background-color: #d03f2f;
+  border-radius: 50%;
+  margin-bottom: 6px;
+  display: inline-block;
+  position: relative;
+}
+
+.them .themContainer .them-item .moveCircle {
+  left: 30%;
+}
+
+.them .themContainer .them-item .moveToEnd {
+  left: 80%;
+}
+
+/*# sourceMappingURL=index.8353e49f.css.map */
