@@ -3,21 +3,12 @@
     "source": "index.html",
   
     "scripts": {
-  
-      
     "start": "parcel",
-  
-      
-    "build": "parcel build"
+    "build": "parcel build index.html"
   
     },
-  
     "devDependencies": {
-  
-      
-    "@parcel/transformer-sass": "^2.4.1",
-  
-      
+    "@parcel/transformer-sass": "^2.4.1", 
     "parcel": "^2.4.1"
   
     }
