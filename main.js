@@ -42,7 +42,7 @@ operation.forEach(btn=>btn.addEventListener('click',(e)=>{
 equalBtn.addEventListener('click',()=>{
    
    try{
-    display.innerText= Number(eval( display.innerText)).toFixed(2);
+    display.innerText= Number(eval( display.innerText));
    } 
    catch{
        display.innerText=`Ooops..!`;
